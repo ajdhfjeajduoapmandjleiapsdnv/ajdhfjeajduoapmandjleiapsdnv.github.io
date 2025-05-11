@@ -9,84 +9,6 @@
     font-weight: 700;
 }
 
-.hr {
-    bottom: 0px;
-    width: 100%;
-    height: 1px;
-    margin-top: 100px;
-    border-bottom: 1px solid #ff0000;
-  }
-
-  .left-heading.light .section-title {
-    color: #ff0000;
-  }
-  
-  .left-heading .section-title {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 42px;
-    color: #1e1e1e;
-    letter-spacing: 0.25px;
-    margin-bottom: 30px;
-    position: relative;
-  }
-  .left-text {
-    font-weight: 400;
-    font-size: 16px;
-    color: #777;
-    line-height: 28px;
-    letter-spacing: 1px;
-  }
-  
-  .left-text.light {
-    color: #fff;
-  }
-  
-  .left-text p {
-    margin-bottom: 30px;
-  }
-  
-  .left-text p.dark {
-    color: #3B566E;
-  }
-  .header-area .container {
-    padding: 0px;
-  }
-  
-  @media (max-width: 991px) {
-    .home-feature {
-      padding-bottom: 0px;
-      padding-top: 0px;
-      margin-top: 0px;
-    }
-  }
-
-
-.fact-item {
-	justify-content: center;
-}
-
-/* 16. Fact */
-.fact-item {
-	display: flex;
-	align-items: first baseline;
-	margin-bottom: 50px;
-}
-.fact-icon {
-	margin-right: 20px;
-}
-.fact-content h2 {
-	font-size: 36px;
-	font-weight: 800;
-	line-height: .9;
-	margin-bottom: 10px;
-}
-.fact-content > span {
-	display: block;
-	font-weight: 700;
-	color: #dfdede;
-}
-
 @font-face {
     font-family: bold;
     src: local('Greycliff CF Bold'), local('Greycliff-CF-Bold'),
@@ -365,7 +287,7 @@ header .navlist .login:hover {
   
 @media (max-width: 1700px) {
     #main .page-text img {
-        width: 4500px;
+        width: 480px;
     }
 }
 
@@ -610,69 +532,6 @@ header .navlist .login:hover {
     background: rgb(18, 20, 26);
 }
 
-/* ---------------------------------------------------------------- showcase 2 --------------------------------------------------------- */
-
-
-#showcase2 {
-    display: flex;
-    flex-direction: row-reverse; /* Inverte a ordem dos elementos */
-    justify-content: space-between;
-    align-items: center;
-    min-height: 500px; /* Ou ajuste a altura conforme necessário */
-    max-width: 1200px; /* Define uma largura máxima */
-    margin: 0 auto; /* Centraliza */
-    padding: 20px; /* Ajuste o espaçamento conforme necessário */
-    box-sizing: border-box;
-}
-
-#showcase2 .video-text2 video {
-    /*width: 520px;
-    position: absolute;
-    right: 15%;
-    top: 20%;
-    border-radius: 10px;
-    box-shadow: 0 0 20px #00000089;*/
-    flex: 1;
-    padding: 20px;
-    max-width: 50%; /* Limita o tamanho do texto */
-}
-
-.video-showcase2 {
-    flex: 1;
-    position: relative;
-    max-width: 50%; /* Limita o tamanho do vídeo */
-}
-
-#showcase2 .video-text2 .main-text {
-    font-family: bold;
-    color: #ffffff;
-    font-size: 45px;
-    font-weight: 700;
-    margin-bottom: 22px;
-}
-
-
-#showcase2 .video-text2 .desc-text {
-    font-family: regular;
-    color: #abaeb1;
-    font-size: 17px;
-    line-height: 1.40;
-    margin-bottom: 29px;
-}
-
-#showcase2 .video-text2 .install-btn {
-    font-weight: 600;
-    color: #fff;
-    padding: 8px 12px;
-    background: var(--main-color);
-    border-radius: 8px;
-    transition: 0.3s ease;
-    box-shadow: 0 4px 20px #0000003e;
-}
-
-/* ---------------------------------------------------------------- showcase 2 --------------------------------------------------------- */
-
-
 #showcase .video-text video {
     width: 520px;
     position: absolute;
@@ -841,79 +700,6 @@ header .navlist .login:hover {
     color: #fff;
 }
 
-.wrapper section .about-icon {
-    margin: 0 auto 165px;
-    position: relative;
-    text-align: center;
-    width: 120px;
-    z-index: -1;
-}
 
-.wrapper section .about-icon::before {
-    background: #91328f none repeat scroll 0 0;
-    content: "";
-    height: 1px;
-    left: 0;
-    position: absolute;
-    top: 11px;
-    width: 120px;
-    z-index: -1;
-}
-
-.wrapper section .about-icon > img {
-    width: 15px;
-    height: 15px;
-}
-
-.wrapper section.about-us .video {
-    padding-right: 30px;
-    padding-top: 10px;
-}
-
-.wrapper section.about-us .video iframe {
-    height: 365px;
-}
-
-.wrapper section.about-us .text > h4 {
-    color: #121212;
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32px;
-    margin: 0 0 55px;
-}
-
-.wrapper section.about-us .text > h3 {
-    color: #4d4d4d;
-    font-family: "Raleway", sans-serif;
-    font-size: 17px;
-    font-weight: 900;
-    margin-bottom: 12px;
-    text-transform: uppercase;
-}
-
-.wrapper section.about-us .text > p {
-    color: #b0aeae;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 26px;
-    margin-bottom: 35px;
-}
-
-.wrapper section.about-us .text > button {
-    background: #fff none repeat scroll 0 0;
-    border: 1px solid #853bfe;
-    color: #853bfe;
-    font-family: "Open Sans", sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    padding: 12px 40px;
-}
-
-.wrapper section.about-us .text > button:hover {
-    color: #fff;
-    background: #853bfe;
-}
 
 
